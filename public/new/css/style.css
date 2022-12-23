@@ -1,0 +1,843 @@
+/* Main */
+body {
+    font-weight: 300;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+/* Main */
+
+/* Header */
+.tab_data {
+    display: none;
+}
+
+
+
+
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    padding: 12px 0 20px;
+
+}
+
+.header-content-image img {
+    width: 100%;
+}
+
+.header-content-image {
+    padding-top: 7px;
+}
+
+.header-content p {
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 15px;
+    margin: 14px 0 2px;
+    line-height: 17px;
+}
+
+.header-more-news-btn a {
+    color: #fff !important;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    font-size: 18px;
+    background: #189fcc;
+    display: inline-block;
+    padding: 15px 43px 15px 23px;
+    line-height: 24px;
+    border-radius: 7px;
+    margin: 2px 0 0px 0;
+    letter-spacing: 1px;
+}
+
+.header-more-news-btn a i {
+    position: absolute;
+    right: 18px;
+    transform: scale(1.5);
+    top: 29px;
+}
+
+.search-btn {
+    color: #189fcc !important;
+}
+
+.header-content a {
+    color: #189bca;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 13px;
+}
+
+/* Header */
+
+/* Navigation */
+.navigarion-left-col ul {
+    padding: 0;
+}
+
+.navigarion-left-col li {
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.navigarion-right-col ul {
+    padding: 0;
+}
+
+.navigarion {
+    padding: 10px 0;
+    border-bottom: solid 1px #e5e5e5;
+    border-top: solid 1px #e5e5e5;
+}
+
+.navigarion-left-col a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2e2e2e;
+    position: relative;
+}
+
+.navigarion-right-col-sign-in {
+    padding-top: 17px !important;
+}
+
+.sign-in-login img {
+    width: 80%;
+}
+
+.sign-in-nav {
+    margin: 0 !important;
+}
+
+a.sign-in-login {
+    width: 20%;
+}
+
+/* .navigarion-left-col li {
+    margin-right: 23px;
+} */
+
+.navigarion-right-col a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    color: #2e2e2e;
+}
+
+.navigarion-right-col li {
+    margin-right: 15px;
+    border-right: solid #4a4a4a 1px;
+    padding-right: 15px;
+    display: inline-block;
+    line-height: 15px;
+}
+
+.navigarion-left-col {
+    padding-top: 10px;
+}
+
+.navigarion-right-col li:last-child {
+    border: none;
+}
+
+.navigarion-right-col {
+    padding-top: 7px;
+}
+
+.navigarion-left-col li a::before {
+    content: url(../images/triangle-icon.png);
+    transform: scale(0.2);
+    right: -26px;
+    top: 0;
+    position: absolute;
+}
+
+.navigarion-right-col li:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner */
+.banner {
+    background: url(../images/banner-bg_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    padding: 50px 0 0 0;
+    margin-bottom: 100px;
+    height: 587px;
+}
+
+.banner .container {
+    width: 930px;
+}
+
+
+.banner-content h1 {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 56px;
+}
+
+.banner-content h1 span {
+    color: #084469;
+}
+
+.banner-content p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    margin-bottom: 50px;
+}
+
+.banner-content p span {
+    color: #fff568;
+    font-weight: 500;
+}
+
+.banner .owl-carousel.owl-loaded.owl-drag {
+    position: absolute;
+}
+
+.slide {
+    padding: 0;
+    margin: 0 21px;
+}
+
+.leader-info h4 {
+    font-weight: 300;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.leader-info h3 {
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.leader-info {
+    position: absolute;
+    top: 264px;
+    left: 53px;
+    text-align: left;
+    color: #ffffff;
+}
+
+/* Banner */
+
+/* Sharing Experiences Section Start */
+.sharing-experiences-section {
+    padding: 100px 0;
+}
+
+.sharing-experiences-content {
+    border: solid 1px #e5e5e5;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+
+}
+
+.sharing-experiences-content img {
+    width: 100%;
+}
+
+.sharing-experiences-content h3 {
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 23px;
+    line-height: 29px;
+    margin-top: 40px;
+}
+
+.sharing-experiences-content h4 {
+    color: #7f7f7f;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 72px 0 10px 0;
+}
+
+.sharing-experiences-content h5 {
+    color: #7f7f7f;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 34px 0 -22px 0;
+}
+
+.sharing-experiences-content h6 {
+    color: #7f7f7f;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    margin: 72px 0 10px 0;
+}
+
+.sharing-experiences-content-btn-01 {
+    background: #fff;
+    clip-path: polygon(0 1%, 100% 0%, 75% 100%, 0% 100%);
+    padding: 7px 30px;
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: solid #e5e5e5 1px;
+    color: #000;
+}
+
+.sharing-experiences-content-btn-02 {
+    background: #189fcc;
+    clip-path: polygon(25% 0, 100% 0%, 70% 100%, 0% 100%);
+    padding: 7px 30px;
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: solid #189fcc 1px;
+    color: #ffffff;
+    margin-left: -34px;
+}
+
+.sharing-experiences-content-btn {
+    position: absolute;
+    top: 134px;
+}
+
+.home-pg-covid-update {
+    border: solid 1px #e5e5e5;
+    padding: 10px 6px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+.support-with-online-education-sec {
+    background: #189bca;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 6px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+
+.home-pg-covid-update h2 {
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.home-pg-covid-update p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.support-with-online-education-sec h2 {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    border-right: solid 1px;
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
+.support-with-online-education-sec p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.support-with-online-education-sec a {
+    color: #189bca;
+    border-radius: 7px;
+    background: #fff;
+    font-weight: 600;
+    padding: 9px 22px;
+    display: inline-block;
+}
+
+/* Sharing Experiences Section End */
+
+/* Events */
+.your-network-section-content {
+    background: #189bca;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+
+.your-network-section-content img {
+    width: 100%;
+}
+
+.events-sec-list ul {
+    padding: 0;
+}
+
+.events-sec-list li {
+    list-style: none;
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.events-sec-list li:last-child {
+    border: none;
+}
+
+.events-sec-list h4 {
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+.events-sec-list h6 {
+    color: #7f7f7f;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.your-network-section h3 {
+    font-weight: 700;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 29px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.your-network-section-content p {
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.your-network-section-content a {
+    color: #fff !important;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    font-size: 20px;
+    display: inline-block;
+    margin: 2px 0 0px 0;
+}
+
+.your-network-section-content a i {
+    position: absolute;
+    right: -32px;
+    top: 7px;
+    transform: scale(1.2);
+}
+
+.your-network-section-content h4 {
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+/* Events */
+
+/* Studying At Medvisty */
+.studying-at-medvisty .container {
+    width: 930px;
+}
+
+/* Style the tab */
+.studying-at-medvisty-sec-tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+/* .studying-at-medvisty {
+    border: solid 1px #e5e5e5;
+    padding: 100px 0;
+} */
+.events-sec {
+    border: solid 1px #e5e5e5;
+}
+
+.studying-at-medvisty-sec-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.studying-at-medvisty-sec-tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.studying-at-medvisty-sec-tab button.active {
+    background-color: #ccc;
+}
+
+.studying-at-medvisty {
+    padding: 100px 0;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 50px 70px;
+    margin: 0px 1px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: url('../images/tab-bg_18.png');
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-pg-tab-01 {
+    display: block;
+}
+
+#home-pg-tab-02 {
+    background: url('../images/campus-life.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-pg-tab-03 {
+    background: url('../images/life-in-london.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home-pg-tab-04 {
+    background: url('../images/why-medvisty.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-pg-tab-inner {
+    background: #0000009e;
+    color: #fff;
+    width: 50%;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.tablinks {
+    width: 24.67%;
+    margin: 0 !important;
+    border: solid 1px #e5e5e5;
+    padding: 12px;
+    border-bottom: none;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 21px;
+    background: transparent;
+}
+
+.tablinks.active {
+    background: #1688c3;
+    color: #fff;
+}
+
+.home-pg-tab-inner h3 {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ffffff;
+    font-size: 44px;
+    margin-bottom: 19px;
+}
+
+.home-pg-tab-inner p {
+    font-weight: 400;
+    font-family: "Barlow Condensed", sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+}
+
+.home-pg-tab-inner a {
+    color: #1794c8;
+    font-weight: 500;
+}
+
+.home-pg-tab-inner a {
+    color: #1794c8;
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    margin: 24px 0 9px 0;
+}
+
+.home-pg-tab-inner a i {
+    position: absolute;
+    right: -28px;
+    top: 4px;
+    transform: scale(1.2);
+}
+
+.studying-at-medvisty-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.studying-at-medvisty-heading h5 {
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    color: #1794c8;
+    text-transform: uppercase;
+}
+
+.studying-at-medvisty-heading h2 {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 47px;
+    margin: 9px 0 11px 0;
+    color: #012f3f;
+    text-transform: uppercase;
+}
+
+.studying-at-medvisty-heading p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/* Studying At Medvisty */
+
+/* Education Platform */
+.education-platform {
+    padding: 80px 0 100px;
+    border: solid 1px #e5e5e5;
+}
+
+.education-platform-content {
+    border: solid 1px #e5e5e5;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.education-platform-content img {
+    width: 100%;
+}
+
+.education-platform-content h3 {
+    font-weight: 500;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 23px;
+    margin: 7px 0;
+    line-height: 26px;
+}
+
+.education-platform-content p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 21px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.education-platform-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.education-platform-heading h5 {
+    font-weight: 600;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    color: #1794c8;
+    text-transform: uppercase;
+}
+
+.education-platform-heading h2 {
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 47px;
+    margin: 9px 0 11px 0;
+    color: #012f3f;
+    text-transform: uppercase;
+}
+
+.education-platform-heading p {
+    font-weight: 400;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+}
+
+/* Education Platform */
+
+/* footer */
+footer {
+    background: #012f3f;
+    color: #fff;
+    padding: 70px 0 0px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer h2 {
+    font-weight: 500;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 24px;
+    margin-bottom: 29px;
+}
+
+.footer {
+    padding-bottom: 70px;
+}
+
+.footer-col a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* footer */
+
+/* Socket */
+.socket {
+    border-top: solid 1px #345965;
+    padding: 0px 0 0;
+}
+
+.footer-logo {
+    border-right: solid 1px #345965;
+    padding: 30px 0 12px 0;
+}
+
+.socket-inner-content {
+    background: rgb(21, 47, 63);
+    padding: 12px 17px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon ul {
+    padding: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.social-icon a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-icon li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.socket-inner-content-btn ul {
+    padding: 0;
+    margin: 0;
+}
+
+.socket-inner-content-btn li {
+    display: inline-block;
+    margin-right: 15px;
+    border-right: solid 1px,
+}
+
+.socket-inner-content-btn a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.socket-content h4 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 14px 0 13px 0;
+}
+
+/* Socket */
+
+
+/*  */
+.owl-nav span {
+    display: none;
+}
+
+.owl-nav {
+    position: relative;
+}
+
+.disabled::before {
+    color: #2b46de;
+}
+
+.owl-prev:before {
+    position: absolute;
+    content: "\f177";
+    font-family: 'FontAwesome';
+    font-weight: 100;
+    font-size: 30px;
+    color: #189fcc;
+    /* background: #2b46de; */
+    min-height: 24px;
+    min-width: 36px;
+    padding: 9px 1px 5px 1px;
+    border-radius: 50px;
+    left: 430px;
+}
+
+.owl-next:after {
+    position: absolute;
+    content: "\f178";
+    font-family: 'FontAwesome';
+    font-weight: 100;
+    font-size: 30px;
+    color: #189fcc;
+    min-height: 24px;
+    min-width: 36px;
+    padding: 9px 1px 5px 1px;
+    border-radius: 50px;
+    left: 484px;
+}

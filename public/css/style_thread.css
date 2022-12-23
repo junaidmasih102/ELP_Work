@@ -1,0 +1,291 @@
+@font-face{
+    font-family: 'Mont-Bold';
+    src: url('../Medivisty/fonts/Mont-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Mont-Regular';
+    src: url('../Medivisty/fonts/Mont-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Mont-SemiBold';
+    src: url('../Medivisty/fonts/Mont-SemiBold.ttf') format('truetype');
+}
+
+.week-all{
+	background: #f7f9f8;
+    border: 2px solid #f9fafb;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 50px;
+    border-radius:7px;
+}
+
+.week-main {
+	padding: 25px 0px 0px 30px;
+    background: #dae7ef;
+    margin: 10px 0px;
+    border-radius: 5px;
+    padding-bottom: 1px;
+}
+
+.week-main ul {
+	list-style:none;
+	
+	padding-left:0px;
+}
+
+.week-main li {
+	padding-right:15px;
+	display:inline-block;
+}
+
+.week-main li:last-child {
+    float: right;
+    }
+
+.week-main h5 {
+	font-family: 'Mont-SemiBold';
+}
+
+.week-main li img {
+	margin-top:-8px;
+}
+
+.query-main {
+	background: white;
+    margin-top: 25px;
+    
+    border: 1px solid #f2f3f4;
+    border-radius: 5px;
+    margin-left:-17px;
+    margin-right:-17px;
+    box-shadow: 2px 2px 4px -2px;
+
+}
+
+.query-content p {
+	color: #bfbfbf;
+    font-family: 'Mont-Regular';
+}
+
+.create-thread {
+	margin-top:20px;
+}
+
+.create-thread a {
+	background: #3394cc;
+    color: #ffff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Mont-Bold';
+}
+
+.create-thread a:hover {
+	color: #ffff;
+	text-decoration: none;
+}
+
+
+
+.web-development h4 {
+	margin-left: 20px;
+    font-family: 'Mont-SemiBold';
+    letter-spacing: 2px;
+    margin-top: 6px;
+    line-height: 29px;
+
+}
+
+.discussion {
+	color:#a3b1b9;
+}
+
+.threads {
+	background: #dae7f1;
+    padding: 7px 9px;
+    border-radius: 5px;
+}
+
+.threads h6 {
+	font-family: 'Mont-Regular';
+
+}
+
+.threads .thread-content {
+	font-size:26px;
+	font-family: 'Mont-Bold';
+}
+
+.thread-content {
+	padding-left: 30px;
+    color: #2083bb;
+}
+
+a.student-main-section  {
+	text-decoration:none !important;
+}
+
+.student-main  {
+	
+    margin-top: 25px;
+    width: 100%;
+    background: white !important;
+    padding: 30px 10px 10px 0px;
+    border: 2px solid #bedff2;
+    border-radius: 7px;
+}
+
+.student-main-dashboard {
+	height:450px;
+}
+
+
+.student-content .fa {
+	font-size:30px;
+	color:grey;
+}
+
+.student-content ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+.student-content {
+	text-align:left;
+}
+
+.student-content h5 {
+	font-family: 'Mont-Bold';
+	color:#111111;
+
+}
+
+.student-img img {
+	margin-top:15px;
+}
+
+.student-content li {
+	color:#c6c6c6;
+	font-family: 'Mont-Regular';
+	margin-right:10px;
+	<!-- border-left: 2px solid #c6c6c6; -->
+}
+
+.student-content li:first-child {
+	border:none;
+}
+
+.student-reply {
+	margin-top:15px;
+}
+
+.student-reply button {
+	color: #54a9da;
+    font-family: 'Mont-Regular';
+    text-decoration: underline;
+    background: none;
+    border: none;
+}
+
+.student-reply a {
+	color: #54a9da;
+    font-family: 'Mont-Regular';
+    text-decoration: underline;
+
+}
+
+.student-reply a:hover {
+	color:#54a9da;
+}
+
+button:focus {
+    outline: none !important;
+    
+}
+
+.messages-main {
+	height: 400px;
+    overflow-y: scroll;
+    padding: 0px 0px 0px 20px;
+}
+
+.messages {
+	border-bottom: 2px solid #f9f9f9;
+	margin-top:10px;
+}
+
+.messages h4 {
+	font-size: 22px;
+    font-family: 'Mont-Regular';
+    color: grey;
+}
+
+.messages h6 {
+	font-family: 'Mont-Regular';
+    color: #000;
+    font-size: 16px;
+}
+
+.messages .fa {
+	font-size:30px;
+}
+
+
+
+.messages ul {
+	list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.messages li {
+	font-family: 'Mont-Regular';
+	margin-right:10px;
+}
+
+
+.something {
+	border-top: 2px solid lightgrey;
+    padding-top: 20px;
+    margin-left: 0px;
+}
+
+.something h4 {
+	color: darkgrey;
+    font-family: 'Mont-Regular';
+}
+
+.something h6 {
+	color: #000;
+    font-family: 'Mont-Regular';
+}
+
+.something ul {
+	list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.something li {
+	font-family: 'Mont-Regular';   
+
+}
+
+.something-content {
+	margin-left:25px;
+}
+
+.accordion-main {
+	padding: 0px 20px 0px 20px;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    
+    padding: 27px 10px 12px 28px;
+}

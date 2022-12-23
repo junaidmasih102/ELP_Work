@@ -1,0 +1,3481 @@
+
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@font-face{
+    font-family: 'Circular Air-Light';
+    src: url('../fonts/Circular Air-Light.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Circular Air-Medium';
+    src: url('../fonts/Circular Air-Medium.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'CircularStd-Book';
+    src: url('../fonts/CircularStd-Book.otf') format('opentype');
+}
+@font-face{
+    font-family: 'CircularStd-Medium';
+    src: url('../fonts/CircularStd-Medium.otf') format('opentype');
+}
+@font-face{
+    font-family: 'ChaletNewYorkNineteenEighty';
+    src: url('../fonts/ChaletNewYorkNineteenEighty.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    src: url('../fonts/Fontfabric---Mont-SemiBold.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Fontfabric---Mont-Regular';
+    src: url('../fonts/Fontfabric---Mont-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Fontfabric---Mont-Light';
+    src: url('../fonts/Fontfabric---Mont-Light.otf') format('opentype');
+}
+@font-face{
+    font-family: 'Fontfabric---Mont-Bold';
+    src: url('../fonts/Fontfabric---Mont-Bold.otf') format('opentype');
+}
+.tab_data {
+    display: none !important;
+}
+.pole-movement-sidebar {
+    background-color: #fff !important;
+    margin-top: 95px;
+    position: relative;
+    float: left;
+    min-height: 1000px;
+    border-right: 1px solid #e3e3e2;
+}
+#side-menu li{
+    background-color: transparent;
+}
+#side-menu li a {
+    padding: 20px 0px 20px 80px;
+    border-bottom: 1px solid #e3e3e2;
+}
+#side-menu {
+    margin: 30px 20px 0 0px;
+}
+#side-menu.active{
+    background-color: #f7d1cb;
+}
+.navbar-top-links li a {
+    padding: 26px 40px 23px 53px !important;
+}
+.admin-settings span {
+    color: #fff !important;
+    font-size: 17px;
+    font-family: 'Fontfabric---Mont-Regular' !important;
+}
+.admin-img {
+    position: absolute;
+    left: -32px;
+    top: 19px;
+}
+.pole-movement-top-bar {
+    background-color: #fff;
+    position: absolute;
+    border-bottom: 1px solid #e3e3e2;
+    height: 95px;
+    margin-bottom: 0;
+}
+#page-wrapper {
+    padding: 0;
+    border: none;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: auto !important;
+    padding-top: 110px;
+}
+.navbar-header {
+    float: left;
+    width: 250px;
+    padding: 12px;
+}
+.navbar-header img{
+    width: 100%;
+}
+.navbar-brand{
+    padding: 0;
+}
+#side-menu>li>a:focus, #side-menu>li>a:active {
+    color: #132625;
+    background-color: #fff;
+}
+.pole-movement-sidebar ul li a .arrow {
+    transform: rotate(180deg);
+    position: absolute;
+    right: 0;
+    padding: 7px 19px 8px 11px;
+    color: #919191 !important;
+    border-radius: 0px 30px 30px 0px;
+    font-size: 18px;
+    top: 14px;
+    font-weight: 200;
+}
+.pole-movement-sidebar li.active a .arrow {
+    transform: rotate(0deg) !important;
+    border-radius: 30px 0px 0px 30px;
+    padding: 7px 10px 8px 15px;
+}
+.nav-second-level li a {
+    border: none !important;
+    font-family: 'Fontfabric---Mont-Regular' !important;
+    font-size: 15px !important;
+}
+.sidebar .nav-second-level li {
+    position: relative;
+    padding-left: 35px;
+}
+.nav-third-level {
+    margin: 0 !important;
+}
+.nav-third-level li:before {
+    display: none;
+}
+.nav-third-level li {
+    padding-left: 15px !important;
+}
+.nav-third-level li:after {
+    content: '\f148';
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    color: #3db1b3;
+    font-size: 20px;
+    transform: rotate(90deg);
+}
+.explore-dd .caret {
+    color: #fff;
+    transform: scale(1.3);
+}
+.explore-dd span {
+    color: #fff !important;
+    font-family: 'Fontfabric---Mont-Bold';
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.explore-dd {
+    float: left;
+    padding: 14px 20px;
+    border-radius: 6px;
+    margin: 23px 0;
+    background: rgb(85,181,235);
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+}
+.search-bar-cont input::placeholder {
+    color: #8890ae;
+    font-size: 15px !important;
+}
+.search-bar-cont input {
+    padding: 16px 62px;
+    border: 1px solid #e3e3e2;
+    border-radius: 6px;
+    color: #8890ae;
+    width: 100%;
+    background: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 30px 16px;
+    outline: none;
+}
+/*#side-menu li a:hover {
+    background-color: #f4f7f9 !important;
+    background: -webkit-linear-gradient(#a0d4f2, #2082bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+.active h2 {
+    background: -webkit-linear-gradient(#a0d4f2, #2082bb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Fontfabric---Mont-SemiBold' !important;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+#side-menu li a h2 {
+    color: #919191 !important;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-Regular' !important;
+}
+.updates-bell-main a {
+    background-color: #f1f6f9;
+    height: 50px;
+    display: inline-block;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 47px;
+}
+.updates-bell-main {
+    float: left;
+    margin: 22px 28px;
+}
+.search-bar-cont {
+    float: left;
+    width: 40% !important;
+    margin-left: 40px;
+}
+.nav-second-level {
+    margin: 25px 0px;
+}
+.admin-details-main{
+    text-align: center;
+    margin-top: 25px;
+}
+.admin-title {
+    font-size: 32px;
+    color: #28435b;
+}
+.admin-description {
+    font-size: 16px;
+    color: #595a5a;
+    font-family: 'Circular Air-Light';
+    font-weight: 500;
+}
+#side-menu li img {
+    position: absolute;
+    left: 40px;
+    top: 16px;
+    filter: grayscale(1);
+}
+.navbar-main-icon-list li img {
+    position: relative !important;
+    left: 0 !important;
+}
+#side-menu li:hover a.active img {
+    filter: initial;
+}
+
+#side-menu .dashboard-txt a.active img {
+    filter: none;
+}
+.dashboard-cols-main {
+    background-color: #fff;
+    text-align: center;
+    border: 8px solid #f4edeb;
+    border-radius: 30px;
+    padding: 30px 0px 20px;
+    margin-top: 60px;
+    min-height: 435px;
+}
+.dashboard-cols-title {
+    color: #1f374d;
+    font-family: 'CircularStd-Medium';
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+.dashboard-cols-sub-title {
+    font-size: 16px;
+    font-family: 'Circular Air-Light';
+    margin-top: 0;
+}
+.socket{
+    background-color: #2e3338;
+    height: 40px;
+}
+
+.dashboard-col3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.assessments-progress-bar-list {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    margin-top: 30px;
+}
+.assessments-progress-bar-list li {
+    margin: 0;
+    text-align: left;
+    position: relative;
+}
+.progressbar {
+    background-color: #26415a !important;
+    margin-bottom: 12px;
+}
+.assessments-progress-bar-list li h5 {
+    font-size: 16px;
+}
+.counter-dpl-none .percentCount {
+    display: none;
+}
+.counter-dpl-none .progressbar {
+    width: 88% !important;
+}
+.workbook-progress-list {
+    padding: 0px 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+    margin-top: 30px;
+    height: 320px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.workbook-progress-list li {
+    border-bottom: 1px dashed #cccccc;
+    padding: 0px 8px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.workbook-progress-list li h5 {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'CircularStd-Medium';
+    color: #383b3e;
+    font-size: 17px;
+    margin-left: 8px;
+}
+.workbook-progress-list li img {
+    display: inline-block;
+    vertical-align: middle;
+}
+.workbook-progress-list li input {
+    float: right;
+    margin-top: 15px;
+}
+.workbook-progress-list li:last-child {
+    border: none;
+}
+.workbook-progress-check-main {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    float: right;
+    margin-top: 10px;
+}
+
+  /* Hide the browser's default checkbox */
+  .workbook-progress-check-main input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border:2px solid #26415a;
+    border-radius: 5px;
+  }
+
+
+  /* When the checkbox is checked, add a blue background */
+  .workbook-progress-check-main input:checked ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .workbook-progress-check-main input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .workbook-progress-check-main .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #e9837f;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-thumb {
+    background: #1f81ba;
+    border-radius: 10px;
+    }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1f81ba;
+    border-radius: 10px;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #28535c;
+  }
+  .msg-notfction-area{
+      background-color: transparent;
+  }
+  .msg-notfction-area a:hover{
+    background-color: transparent !important;
+  }
+  .msg-notfction-area a i {
+    font-size: 24px;
+    color: #28435b !important;
+    position: relative;
+    top: 4px;
+}
+.navbar-top-links > li {
+    line-height: 46px;
+}
+.navbar-top-links>li>a:focus {
+    background-color: transparent;
+}
+.navbar-top-links>.open>a {
+    background-color: transparent !important;
+}
+.pole-movement-top-bar .navbar-top-links li:last-child {
+    padding: 0 !important;
+    vertical-align: middle;
+    margin: 0;
+    min-height: 95px !important;
+    background: rgb(85,181,235);
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+}
+.admin-settings {
+    padding-top: 9px !important;
+    padding-bottom: 8px !important;
+}
+.admin-settings:hover {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+.admin-settings {
+    padding-top: 9px !important;
+    padding-bottom: 8px !important;
+    color: #28435b !important;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.admin-settings .caret {
+    transform: scale(1.5);
+    right: -6px;
+    position: relative;
+    color: #fff !important;
+}
+.admin-settings img {
+    margin-right: 6px;
+}
+.admin-settings-dropdown {
+    box-shadow: none;
+    border: 1px solid #f5ebea;
+    width: 100% !important;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+.admin-settings-dropdown li {
+    padding: 0px 6px !important;
+    margin-bottom: 6px;
+    padding-top: 6px !important;
+    border-bottom: 1px dashed #d9d9d9;
+    padding-bottom: 8px !important;
+}
+.admin-settings-dropdown li a {
+    padding: 0 !important;
+    font-family: 'Circular Air-Light';
+    color: #28435b !important;
+    font-size: 16px;
+}
+.admin-settings-dropdown li a:hover{
+    background-color: transparent;
+}
+.admin-settings-dropdown li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.admin-settings-dropdown li a i {
+    font-size: 18px;
+    margin: 0px 4px;
+    color: #28435b !important;
+}
+.admin-settings-dropdown:before {
+    content: url(images/dropdown-icon-top.png);
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    top: -20px;
+    right: 28px;
+}
+
+/*DASHBOARD*/
+.main-logo-container {
+    display: inline-block;
+    width: 277px !important;
+    float: left;
+}
+.main-logo-container ul li img {
+    padding: 32px 18px;
+}
+.navbar-main-icon-list .collapse {
+    display: block;
+    visibility: visible;
+}
+.main-logo-container ul {
+    margin: 0;
+    padding-left: 10px;
+}
+.main-logo-container ul li {
+    display: inline-block;
+    border-right: 1px solid #addedf;
+    min-height: 76px;
+    vertical-align: middle;
+    padding: 6px 17px 6px 17px;
+}
+.main-logo-container ul li:last-child {
+    border: none;
+}
+.navbar-main-icon-list ul {
+    padding: 0;
+    margin: 0;
+}
+#side-menu .nav-second-level a.active {
+    font-size: 23px !important;
+    letter-spacing: 1px;
+    font-family: 'Fontfabric---Mont-SemiBold' !important;
+    background: linear-gradient(to right, #b0ddf6 9%, #3d92c3 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#side-menu .nav-second-level a.active:before {
+    content: '';
+    height: 4px;
+    width: 58px;
+    background-image: linear-gradient(to right, #51b2e7, #1f81ba);
+    position: absolute;
+    left: -35px;
+    top: 21px;
+}
+.navbar-main-icon-list ul li {
+    background-color: #3db1b3 !important;
+    padding: 9px 9px;
+    border-radius: 50%;
+    margin: 0 -8px 0 22px;
+    display: inline-block;
+}
+.navbar-main-icon-list {
+    padding: 30px 0 14px 0;
+}
+#side-menu .nav-second-level li a {
+    background-color: transparent !important;
+    padding: 9px 0px 9px 44px !important;
+    color: #ababab;
+    font-size: 16px !important;
+    letter-spacing: 0.5px;
+    font-family: 'Fontfabric---Mont-Regular' !important;
+}
+.search-bar-main {
+    padding: 0 15px !important;
+}
+.search-bar {
+    margin-top: 20px;
+}
+.search-bar input {
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    font-family: 'Fontfabric---Mont-Light';
+    width: 100%;
+    height: 46px !important;
+    position: relative;
+}
+.search-bar button {
+    position: absolute;
+    right: 15px;
+    border: none;
+    color: #fff;
+    background-color: #3db1b3;
+    padding: 9px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/*medvesty dashboard*/
+.ecologies-main {
+    background-color: #f6f8fa;
+    border-radius: 7px;
+    padding: 35px 30px 85px 30px;
+}
+.gy-hdng {
+    color: #81949e;
+    font-size: 24px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 0;
+    line-height: 32px;
+}
+.sub-hdng {
+    margin: 0;
+    color: #111111;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: 'Fontfabric---Mont-Regular';
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.ecology-flowchart {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.ecology-flowchart-main {
+    margin-top: 102px;
+    position: relative;
+}
+.ecologies-main p {
+    color: #81949e;
+    font-size: 14px;
+    font-family: 'Fontfabric---Mont-Regular';
+    line-height: 32px;
+}
+.ecology-flowchart li {
+    color: #111111;
+    font-size: 17px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    display: inline-block;
+}
+.ecology-flowchart li img {
+    margin-right: 20px;
+}
+.pointer {
+    width: 178px;
+    height: 60px;
+    position: relative;
+    background: #fff;
+    padding: 15px 4px 15px 43px;
+    margin: 0 0 0 5px;
+    bottom: -59px;
+}
+.pointer:before {
+    content: "";
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #fff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    z-index: 99;
+}
+.pointer:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 20px solid #f6f8fa;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+}
+
+  .weekly-goal-left h3 {
+    font-size: 26px;
+    color: #111111;
+    font-family: 'Fontfabric---Mont-Bold';
+    margin: 0;
+    margin-bottom: 12px;
+}
+.weekly-goal-left p {
+    font-size: 15px;
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+    margin: 0;
+}
+.weekly-goal-left {
+    width: 84%;
+    float: left;
+}
+.weekly-goal-right {
+    width: 16%;
+    float: left;
+}
+.btn-main {
+    float: left;
+    padding: 11px 20px;
+    border-radius: 6px;
+    background: rgb(85,181,235);
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    color: #fff !important;
+    font-family: 'Fontfabric---Mont-Bold';
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: 8px 0;
+    float: right;
+}
+.weekly-goal-main {
+    border: 1px solid #47a7de;
+    display: inline-block;
+    width: 100%;
+    border-radius: 7px;
+    padding: 35px 35px 35px 35px;
+    margin-top: 40px;
+}
+.clr-box {
+    background-color: #f6f9fa;
+    display: inline-block;
+    width: 100%;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 40px;
+}
+.week-main {
+    background-color: #d9e7f1;
+    border-radius: 7px;
+    padding: 22px 30px 17px 30px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+.week-main h5 {
+    color: #111111;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 6px 0;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding-left: 40px;
+}
+.week-main img {
+    margin-right: 15px;
+    position: absolute;
+    top: 25px;
+}
+.clr-head h3 {
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.clr-head {
+    padding: 35px 25px 25px 30px;
+    display: inline-block;
+    width: 100%;
+}
+.instructors-main h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+.instructors-main p {
+    font-family: 'Fontfabric---Mont-Regular';
+    color: #919191;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.instructors-main img {
+    margin: 11px 0 15px 0;
+}
+.dd-links {
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 10px !important;
+    display: inline-block;
+}
+.pointer-cont h6 {
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    line-height: 23px;
+    margin-top: 7px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    text-align: left;
+}
+.pointer-cont h5 {
+    font-family: 'Fontfabric---Mont-Bold';
+    font-size: 15px;
+    margin: 0;
+    text-align: left;
+}
+.pointer-cont {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    color: #fff;
+    width: 26%;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -84px;
+}
+.pointer-cont span {
+    text-align: right;
+    display: inline-block;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.pointer:hover {
+    background: linear-gradient(90deg, rgb(42 140 196) 5%, rgba(42,140,196,1) 100%);
+    color: #fff !important;
+}
+.icon-wh {
+    display: none;
+}
+.pointer:hover .icon-clr {
+    display: none;
+}
+.pointer:hover .icon-wh {
+    display: inline-block;
+}
+.pointer:hover::before {
+    border-left: 20px solid rgba(42,140,196,1);
+}
+.pointer-cont:after {
+    content: '\f0d7 ';
+    font-family: 'FontAwesome';
+    position: absolute;
+    bottom: -23px;
+    font-size: 30px;
+    color: #399ad1;
+    left: 0;
+    text-align: center;
+    right: 0;
+}
+.ecology-pointer-inner {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    color: #fff;
+    width: 23%;
+    border-radius: 7px;
+    padding: 15px 10px 9px 12px;
+    display: inline-block;
+}
+.ecology-pointers {
+    margin-bottom: 30px;
+}
+.acc-head-right {
+    float: right;
+    color: #919191;
+    font-size: 15px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.acc-head-right b {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    font-family: 'Fontfabric---Mont-Bold';
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.acc-head-right i {
+    color: #111111;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.accordian-week {
+    padding: 18px 30px 18px 30px;
+}
+.accordian-week h5 {
+    margin: 9px 0;
+}
+.accordian-week img {
+    top: 25px;
+}
+.acc-cont {
+    border-radius: 0px 0px 7px 7px;
+    width: 100%;
+}
+.weekly-cols:nth-child(4) {
+    margin: 0;
+}
+.weekly-cols:nth-child(2) {
+    margin: 0;
+}
+.weekly-cols {
+    width: 46%;
+    background-color: #fff;
+    border: 1px solid #cfe3d5;
+    text-align: center;
+    border-radius: 7px;
+    padding-top: 15px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.weekly-col-inner h5 {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+}
+.weekly-cols:hover {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+}
+.weekly-cols:hover h4 {
+    color: #fff;
+}
+.weekly-cols:hover .icon-bl {
+    display: none;
+}
+.weekly-cols:hover .icon-wh {
+    display: block;
+}
+.weekly-cols .icon-wh {
+    margin: auto;
+}
+#side-menu .dashboard-txt a.active {
+    background-color: #f4f7f9;
+    border: none;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.weekly-col-inner {
+    border-top: 1px solid #cfe3d5;
+    border-radius: 7px;
+    padding: 10px 0;
+    background-color: #fff !important;
+}
+.weekly-cols h4 {
+    font-size: 18px;
+    color: #20272b;
+    text-transform: uppercase;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    letter-spacing: 1px;
+}
+#acc-table {
+    width: 100%;
+}
+#acc-table thead {
+    background-color: #d9e7f1;
+    border-bottom: 1px solid #cfe3d5;
+}
+#acc-table th {
+    color: #111111;
+    font-size: 18px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+#acc-table thead tr th:first-child {
+    border-top-left-radius: 10px !important;
+}
+#acc-table thead tr th {
+    padding: 10px;
+}
+#acc-table tbody {
+    background-color: #fff;
+}
+#acc-table h3 {
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+#acc-table h5 {
+    color: #919191;
+    font-size: 15px;
+}
+#acc-table img {
+    position: absolute;
+    left: 11px;
+    top: 18px;
+}
+#acc-table td {
+    position: relative;
+}
+.inner-table-cnt b {
+    color: #1f81ba;
+    font-size: 15px;
+}
+.inner-table-cnt {
+    position: relative;
+    padding-left: 76px;
+}
+#acc-table tbody tr td {
+    padding-bottom: 40px !important;
+}
+.accordian-main {
+    margin-top: 50px;
+}
+.acc-cont-inner {
+    background-color: #f6f9fa;
+    display: inline-block;
+    padding: 50px 15px 0px 15px;
+}
+.email-medvisty-left {
+    width: 60%;
+    float: left;
+}
+.email-medvisty-right {
+    width: 40%;
+    float: right;
+    text-align: right;
+}
+.email-medvisty-left p {
+    color: #111111;
+    font-size: 16px;
+}
+#toggle-switch .switch {
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 32px;
+}
+
+  #toggle-switch .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  #toggle-switch .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  #toggle-switch .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 5px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.socket ul li a, .socket p {
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.socket ul li {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 14px;
+}
+.socket ul {
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+.socket {
+    background-color: #111111;
+    height: 60px;
+    padding: 22px 0;
+}
+.email-medvisty {
+    display: inline-block;
+    width: 100%;
+    padding: 50px 0 20px 0;
+}
+.email-close i {
+    font-size: 20px;
+    min-height: 32px;
+    min-width: 32px;
+    display: inline-block;
+    line-height: 30px;
+    color: #000;
+}
+.email-close {
+    float: right;
+    background-color: #d9e7f1;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 24px;
+}
+#toggle-switch input:checked + .slider {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+}
+
+  #toggle-switch input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  #toggle-switch input:checked + .slider:before {
+    -webkit-transform: translateX(28px);
+    -ms-transform: translateX(28px);
+    transform: translateX(28px);
+  }
+
+  /* Rounded sliders */
+  #toggle-switch .slider.round {
+    border-radius: 34px;
+  }
+
+  #toggle-switch .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* Notes Start */
+.note-main-heading {
+    font-family: 'Fontfabric---Mont-Bold';
+    color: #81949e;
+    margin-bottom: 30px;
+}
+.Essential-Peer {
+    background-color: #f6f9fa;
+    padding: 16px 11px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.Essential-Peer-h3 {
+    background-color: #ffffff;
+    font-size: 16px;
+    border: solid #cfe3d5 1px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    margin-top: 0px;
+    color: #111111;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Essential-Peer-p {
+    margin-left: 27px!important;
+    font-size: 14px;
+    line-height: 27px;
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    margin-top: 15px;
+    padding-right: 11%;
+}
+.btn.btn-default.dropdown-toggle {
+    color: #3f98ca;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+    margin-left: 21px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+.doc {
+    text-align: center;
+}
+.doc-1 {
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.doc-2 {
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Bold';
+    padding-bottom: 80px;
+}
+.Peer-image {
+    margin-top: -7px;
+    margin-right: 8px;
+    margin-left: 0px;
+}
+.note-full-width {
+    background-color: #e8f1f4;
+    width: 100%;
+    color: #111111!important;
+    margin-bottom: 24px;
+    height: 60px;
+    border: solid #cfdae3 thin;
+    border-radius: 10px;
+}
+.space {
+    margin-left: 87%!important;
+}
+.note-icon {
+    margin-left: 85%;
+    color: #111111!important;
+    font-size: 32px!important;
+    padding-top: 3px;;
+}
+.heading-All-Notes {
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    color: #111111!important;
+}
+.caret {
+    margin-left: 0;
+    color: #2183bc;
+}
+.more-col-span {
+    color: #2183bc;
+}
+/* Notes End */
+
+/* Resources Start */
+.Resources-main-heading {
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    color: #111111;
+    font-size: 28px;
+    margin-bottom: 42px;
+}
+.Resources-inner-background {
+    background-color: #f6f9fa;
+    border-radius: 10px;
+    border: transparent;
+    padding: 1px 10px;
+    margin-bottom: 40px;
+}
+.Resources-headings {
+    background-color: #e7f1f8;
+    color: #111111;
+    border: solid #cfe3d5 1px;
+    border-radius: 10px;
+    padding: 18px 23px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Sign-Up {
+    background-color: #ffffff;
+    color: #a0a0a0;
+    border: solid #cfe3d5 1px;
+    border-radius: 10px;
+    padding: 18px 24px;
+    font-size: 15px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Sign-Up-span {
+    color: #1f81ba;
+}
+
+.Sign-Up:hover {
+    color: #ffffff!important;
+    background-color: #52b2e8;
+}
+.Sign-Up:hover .Sign-Up-span {
+    color: #fff;
+}
+.Resources-course {
+    padding: 10px 34px;
+    color: #9e9f9f;
+    line-height: 24px;
+    font-size: 15px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.dot-icon {
+    padding-left: 35px;
+    padding-right: 10px;
+}
+.Resource-MOOCs {
+    color: #4cade3;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+/* Resources End */
+
+/* message-start */
+.inner-page-wrapper-message {
+    background-color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 0;
+}
+.inner-page-wrapper-message .ecologies-main {
+    background-color: transparent ;
+}
+.inner-page-wrapper-message .media
+{
+    border: solid 1px #4fafe5;
+    border-radius: 7px;
+    padding: 32px 0px 15px 45px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.inner-page-wrapper-message .media img
+{
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+.inner-page-wrapper-message .media p
+{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    color: black;
+}
+.inner-page-wrapper-message .media-body p
+{
+    letter-spacing: 0px;
+    padding: 0;
+    color: #919191;
+    line-height: 2;
+    font-weight: 600;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 0px 0px 1px #d7d0d0;
+}
+.media-body-left-content {
+    float: left;
+}
+.media-body-left-content button {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #348fc3 !important;
+    padding: 0;
+    background: linear-gradient(to right, #fff, #2082bb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+    text-shadow: 0px 1px 1px #2b8dc5;
+    text-decoration: none !important;
+}
+.media-body-left-content i {
+    padding-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.media-body-right-content {
+    float: right;
+    padding-right: 40px;
+}
+/* message-end */
+
+/* Week page start */
+.inner-page-wrapper-schedule {
+    background-color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 0;
+}
+.inner-page-wrapper-schedule .gy-hdng {
+    color: #81949e;
+    font-size: 35px;
+    font-family: 'Fontfabric---Mont-Bold';
+    margin: 0;
+    line-height: 32px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.inner-page-wrapper-schedule .sub-hdng span
+{
+    font-size: 19px;font-family: 'Fontfabric---Mont-SemiBold';
+}
+.inner-page-wrapper-schedule .sub-hdng {
+    color: #111111;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0;
+    margin: 13px 0px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.inner-page-wrapper-schedule .ecologies-main {
+    background-color:transparent;
+}
+.inner-page-wrapper-schedule .main-week {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 10px 10px 137px 10px;
+    margin: 15px 0px;
+}
+.inner-page-wrapper-schedule .week-1-heading
+{
+    background: #d9e7f1;
+    padding: 20px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+}
+.inner-page-wrapper-schedule .week-1-heading img
+{
+    vertical-align: sub;
+    padding-right: 13px;
+
+}
+.main-week .week-1-heading h5 {
+    font-size: 20px;
+    display: inline;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+.inner-page-wrapper-schedule .week-1-heading h4
+{
+    text-transform: uppercase;
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Fontfabric---Mont-Bold';
+    color: black;
+    word-spacing: 2px;
+}
+.week-1-content
+{
+    padding: 0px 33px;
+}
+.left-content
+{
+    float: left;
+}
+.inner-page-wrapper-schedule .week-1-content h2
+{
+    font-size: 28px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 35px 0px 13px 0px;
+}
+.inner-page-wrapper-schedule .week-1-content p
+{
+    font-weight: 600;
+    color: #919191;
+    font-size: 16px;
+    word-spacing: 1px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.right-content
+{
+    float: right;
+}
+.form_submit_btn {
+    margin: 40px 0px 0px 90px;
+    font-size: 18px;
+
+}
+.form_submit_btn a {
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #53b3e8, #2183bc);
+    -webkit-text-fill-color: white;
+    font-family: 'Fontfabric---Mont-Bold';
+}
+.form_submit_btn i {
+    color: white;
+ font-weight: bolder;
+    font-size: 18px;
+}
+.media-content .media h3
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+.media-content .media #women
+
+{
+    z-index: 0;
+    right: 15px;
+}
+.inner-page-wrapper-schedule .media-body p
+{
+    display: block;
+}
+.inner-page-wrapper-schedule .media
+{
+    border: solid 1px #4fafe5;
+    border-radius: 7px;
+    padding: 15px 0px 30px 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.inner-page-wrapper-schedule .media img
+{
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+.inner-page-wrapper-schedule .media p
+
+{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 0px 0px 0px 15px;
+    margin-bottom: 18px;
+    line-height: 1.6;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    color: black;
+}
+.inner-page-wrapper-schedule .media-body p
+
+{
+    color: #919191;
+    line-height: 2;
+    font-size: 15px;
+    font-weight: 100;
+    text-shadow: 0px 0px 1px #d7d0d0;
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.media-body button {
+    font-size: 18px;
+    color: #348fc3 !important;
+    padding: 0;
+    background: linear-gradient(to right, #61bbec, #2385bd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none !important;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-weight: 500;
+}
+.media-body button i {
+    padding-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.inner-page-wrapper-schedule .media-body a
+{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.inner-page-wrapper-schedule .media-body i
+{
+    color: #3c9dd4;
+    font-size: 18px;
+    padding-right: 2px;
+}
+.About-the-Course .week-active-content
+{
+    background: white;
+    padding: 25px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+    margin: 15px 0px 0px 0px;
+}
+.About-the-Course .week-active-content a
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 19px;
+    display: inline !important;
+}
+
+.About-the-Course .week-active-content i ,.About-the-Course .week-inactive-content i
+{
+    font-size: 22px;
+    padding-right: 15px;
+    background: linear-gradient(to right, #54b4ea, #2587bf);
+        background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.About-the-Course .week-1-heading a {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 0;
+}
+.About-the-Course .week-active-content a ,.week-inactive-content a
+{
+    display: inline-flex;
+    letter-spacing: 1px;
+    color: black;
+}
+.About-the-Course .week-active-content small ,.week-inactive-content small
+{
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+}
+.About-the-Course .form_submit_btn
+{
+    float: right;
+    margin: 0;
+}
+.About-the-Course .form_submit_btn a {
+    display: inline;
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #53b3e8, #2183bc);
+    -webkit-text-fill-color: white;
+    font-family: 'Fontfabric---Mont-Bold';
+}
+.About-the-Course .form_submit_btn i
+{
+    color: white;
+    padding: 0;
+}
+.About-the-Course .week-inactive-content
+{
+    padding: 25px 30px;
+    border-bottom: solid 1px #cfd4e3;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 17px;
+    line-height: 1.7;
+}
+.About-the-Course .main-week {
+    background-color: #f6f8fa;
+    border-radius: 7px;
+    padding: 11px;
+    margin: 35px 0px;
+}
+/* Week page end */
+
+/* week-2-start */
+
+.inner-page-wrapper-week-2 .week-inactive-content span {
+    font-size: 12px;
+    background: #04040414;
+    border-radius: 20px;
+    padding: 4px 25px;
+    border: solid 1px #04040414;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #68696a;
+    word-spacing: 2px;
+}
+
+.inner-page-wrapper-week-2 {
+    background-color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 0;
+}
+
+.inner-page-wrapper-week-2 .gy-hdng {
+    color: #81949e;
+    font-size: 35px;
+    font-family: 'Fontfabric---Mont-Bold';
+    margin: 0;
+    line-height: 32px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.inner-page-wrapper-week-2 .sub-hdng span
+{
+    font-size: 19px;font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.inner-page-wrapper-week-2 .sub-hdng {
+    color: #111111;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0;
+    margin: 13px 0px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+
+.inner-page-wrapper-week-2 .ecologies-main {
+    background-color:transparent;
+}
+
+
+.inner-page-wrapper-week-2 .main-week {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 10px 10px 137px 10px;
+    margin: 15px 0px;
+}
+
+.inner-page-wrapper-week-2 .week-1-heading
+{
+    background: #d9e7f1;
+    padding: 20px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+}
+
+.inner-page-wrapper-week-2 .week-1-heading img
+{
+    vertical-align: sub;
+    padding-right: 13px;
+
+}
+
+.main-week .week-1-heading h5 {
+    font-size: 20px;
+    display: inline;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+.inner-page-wrapper-week-2 .week-1-heading h4
+{
+    text-transform: capitalize;
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Fontfabric---Mont-Bold';
+    color: black;
+    word-spacing: 2px;
+}
+
+.week-1-content
+{
+    padding: 0px 33px;
+}
+
+.left-content
+{
+    float: left;
+}
+
+.inner-page-wrapper-week-2 .week-1-content h2
+{
+    font-size: 28px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 35px 0px 13px 0px;
+}
+
+.inner-page-wrapper-week-2 .week-1-content p
+{
+    font-weight: 600;
+color: #919191;
+font-size: 16px;
+word-spacing: 1px;
+font-family: 'Fontfabric---Mont-Regular';
+}
+
+.right-content
+{
+    float: right;
+}
+
+.form_submit_btn {
+    margin: 40px 0px 0px 90px;
+font-size: 18px;
+
+}
+
+.sign_bar
+{
+    /* color: #348fc3 !important;
+background: linear-gradient(to right, #fff, #2082bb);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text; */
+}
+
+.form_submit_btn a {
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #53b3e8, #2183bc);
+    -webkit-text-fill-color: white;
+    font-family: 'Fontfabric---Mont-Bold';
+}
+
+.form_submit_btn i {
+    color: white;
+ font-weight: bolder;
+    font-size: 18px;
+}
+
+
+
+.media-content .media h3
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.media-content .media #women
+
+{
+    z-index: 0;
+    right: 15px;
+}
+
+.inner-page-wrapper-week-2 .media-body p
+{
+    display: block;
+}
+
+.inner-page-wrapper-week-2 .media
+{
+    border: solid 1px #4fafe5;
+    border-radius: 7px;
+    padding: 15px 0px 30px 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.inner-page-wrapper-week-2 .media img
+{
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.inner-page-wrapper-week-2 .media p
+
+{
+    display: inline-block;
+font-weight: 500;
+font-size: 22px;
+padding: 0px 0px 0px 15px;
+margin-bottom: 18px;
+line-height: 1.6;
+font-family: 'Fontfabric---Mont-SemiBold';
+color: black;
+}
+
+.inner-page-wrapper-week-2 .media-body p
+
+{
+    color: #919191;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.media-body button {
+    font-size: 18px;
+    color: #348fc3 !important;
+    padding: 0;
+    background: linear-gradient(to right, #61bbec, #2385bd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none !important;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-weight: 500;
+}
+
+.media-body button i {
+    padding-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.inner-page-wrapper-week-2 .media-body a
+{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.inner-page-wrapper-week-2 .media-body i
+{
+    color: #3c9dd4;
+    font-size: 18px;
+    padding-right: 2px;
+}
+
+
+
+.About-the-Course .week-active-content
+{
+    background: white;
+    padding: 25px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+    margin: 15px 0px 0px 0px;
+}
+
+.inner-page-wrapper-week-2 .About-the-Course .week-active-content a
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 19px;
+    display: inline-flex !important;
+}
+
+.About-the-Course .week-active-content i ,.About-the-Course .week-inactive-content i
+{
+    font-size: 22px;
+    padding-right: 15px;
+    background: linear-gradient(to right, #54b4ea, #2587bf);
+        background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.About-the-Course .week-1-heading a {
+    text-transform: uppercase;
+
+    font-weight: bolder;
+letter-spacing: 2px;
+font-size: 20px;
+padding: 0;
+}
+
+.About-the-Course .week-active-content a ,.week-inactive-content a
+{
+    display: inline-flex;
+
+letter-spacing: 1px;
+/* font-size: 18px; */
+color: black;
+}
+
+.About-the-Course .week-active-content small ,.week-inactive-content small
+{
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+}
+
+.About-the-Course .form_submit_btn
+{
+    float: right;
+    margin: 0;
+}
+
+.About-the-Course .form_submit_btn a {
+    display: inline;
+font-size: 17px;
+padding: 15px 20px;
+border-radius: 8px;
+text-transform: uppercase;
+letter-spacing: 1px;
+background: linear-gradient(to right, #53b3e8, #2183bc);
+-webkit-text-fill-color: white;
+font-family: 'Fontfabric---Mont-Bold';
+}
+
+.About-the-Course .form_submit_btn i
+{
+    color: white;
+    padding: 0;
+}
+
+.About-the-Course .week-inactive-content
+{
+    padding: 25px 30px;
+    border-bottom: solid 1px #cfd4e3;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.About-the-Course .main-week {
+    background-color: #f6f8fa;
+    border-radius: 7px;
+    padding: 11px;
+    margin: 35px 0px;
+}
+
+/* week-2-end */
+
+/* week-3-start */
+
+
+.inner-page-wrapper-week-3 {
+    background-color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 0;
+}
+
+.inner-page-wrapper-week-3 .gy-hdng {
+    color: #81949e;
+    font-size: 35px;
+    font-family: 'Fontfabric---Mont-Bold';
+    margin: 0;
+    line-height: 32px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.inner-page-wrapper-week-3 .sub-hdng span
+{
+    font-size: 19px;font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.inner-page-wrapper-week-3 .sub-hdng {
+    color: #111111;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0;
+    margin: 13px 0px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+
+.inner-page-wrapper-week-3 .ecologies-main {
+    background-color:transparent;
+}
+
+
+.inner-page-wrapper-week-3 .main-week {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 10px 10px 137px 10px;
+    margin: 15px 0px;
+}
+
+.inner-page-wrapper-week-3 .week-1-heading
+{
+    background: #d9e7f1;
+    padding: 20px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+}
+
+.inner-page-wrapper-week-3 .week-1-heading img
+{
+    vertical-align: sub;
+    padding-right: 13px;
+
+}
+
+.main-week .week-1-heading h5 {
+    font-size: 20px;
+    display: inline;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+.inner-page-wrapper-week-3 .week-1-heading h4
+{
+    text-transform: capitalize;
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Fontfabric---Mont-Bold';
+    color: black;
+    word-spacing: 2px;
+}
+
+.week-1-content
+{
+    padding: 0px 33px;
+}
+
+.left-content
+{
+    float: left;
+}
+
+.inner-page-wrapper-week-3 .week-1-content h2
+{
+    font-size: 28px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 35px 0px 13px 0px;
+}
+
+.inner-page-wrapper-week-3 .week-1-content p
+{
+    font-weight: 600;
+color: #919191;
+font-size: 16px;
+word-spacing: 1px;
+font-family: 'Fontfabric---Mont-Regular';
+}
+
+.right-content
+{
+    float: right;
+}
+
+.form_submit_btn {
+    margin: 40px 0px 0px 90px;
+font-size: 18px;
+
+}
+
+.form_submit_btn a {
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #53b3e8, #2183bc);
+    -webkit-text-fill-color: white;
+    font-family: 'Fontfabric---Mont-Bold';
+}
+
+.form_submit_btn i {
+    color: white;
+ font-weight: bolder;
+    font-size: 18px;
+}
+
+.media-content .media h3
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.media-content .media #women
+
+{
+    z-index: 0;
+    right: 15px;
+}
+
+.inner-page-wrapper-week-3 .media-body p
+{
+    display: block;
+}
+
+.inner-page-wrapper-week-3 .media
+{
+    border: solid 1px #4fafe5;
+    border-radius: 7px;
+    padding: 15px 0px 30px 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.inner-page-wrapper-week-3 .media img
+{
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.inner-page-wrapper-week-3 .media p
+
+{
+    display: inline-block;
+font-weight: 500;
+font-size: 22px;
+padding: 0px 0px 0px 15px;
+margin-bottom: 18px;
+line-height: 1.6;
+font-family: 'Fontfabric---Mont-SemiBold';
+color: black;
+}
+
+.inner-page-wrapper-week-3 .media-body p
+
+{
+    color: #919191;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.media-body button {
+    font-size: 18px;
+    color: #348fc3 !important;
+    padding: 0;
+    background: linear-gradient(to right, #61bbec, #2385bd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none !important;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-weight: 500;
+}
+
+.media-body button i {
+    padding-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.inner-page-wrapper-week-3 .media-body a
+{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.inner-page-wrapper-week-3 .media-body i
+{
+    color: #3c9dd4;
+    font-size: 18px;
+    padding-right: 2px;
+}
+
+
+
+.About-the-Course .week-active-content
+{
+    background: white;
+    padding: 25px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+    margin: 15px 0px 0px 0px;
+}
+
+.inner-page-wrapper-week-3 .About-the-Course .week-active-content a
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 19px;
+
+}
+
+.About-the-Course .week-active-content i ,.About-the-Course .week-inactive-content i
+{
+    font-size: 22px;
+    padding-right: 15px;
+    background: linear-gradient(to right, #54b4ea, #2587bf);
+        background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.About-the-Course .week-1-heading a {
+    text-transform: uppercase;
+
+    font-weight: bolder;
+letter-spacing: 2px;
+font-size: 20px;
+padding: 0;
+}
+
+.About-the-Course .week-active-content a ,.week-inactive-content a
+{
+    display: inline-flex;
+
+letter-spacing: 1px;
+/* font-size: 18px; */
+color: black;
+}
+
+.About-the-Course .week-active-content small ,.week-inactive-content small
+{
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+}
+
+.About-the-Course .form_submit_btn
+{
+    float: right;
+    margin: 0;
+}
+
+.About-the-Course .form_submit_btn a {
+    display: inline;
+font-size: 17px;
+padding: 15px 20px;
+border-radius: 8px;
+text-transform: uppercase;
+letter-spacing: 1px;
+background: linear-gradient(to right, #53b3e8, #2183bc);
+-webkit-text-fill-color: white;
+font-family: 'Fontfabric---Mont-Bold';
+}
+
+.About-the-Course .form_submit_btn i
+{
+    color: white;
+    padding: 0;
+}
+
+.About-the-Course .week-inactive-content
+{
+    padding: 25px 30px;
+    border-bottom: solid 1px #cfd4e3;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.About-the-Course .main-week {
+    background-color: #f6f8fa;
+    border-radius: 7px;
+    padding: 11px;
+    margin: 35px 0px;
+}
+
+.inner-page-wrapper-week-3 .week-inactive-content span {
+    font-size: 12px;
+    background: #04040414;
+    border-radius: 20px;
+    padding: 4px 25px;
+    border: solid 1px #04040414;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #68696a;
+    word-spacing: 2px;
+}
+
+/* week-3-end */
+
+/* week-4-start */
+
+
+.inner-page-wrapper-week-4 {
+    background-color: #fff !important;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    padding: 18px 0;
+}
+
+.inner-page-wrapper-week-4 .gy-hdng {
+    color: #81949e;
+    font-size: 35px;
+    font-family: 'Fontfabric---Mont-Bold';
+    margin: 0;
+    line-height: 32px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.inner-page-wrapper-week-4 .sub-hdng span
+{
+    font-size: 19px;font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.inner-page-wrapper-week-4 .sub-hdng {
+    color: #111111;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 40px;
+    padding: 0;
+    margin: 13px 0px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+
+.inner-page-wrapper-week-4 .ecologies-main {
+    background-color:transparent;
+}
+
+
+.inner-page-wrapper-week-4 .main-week {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 10px 10px 137px 10px;
+    margin: 15px 0px;
+}
+
+.inner-page-wrapper-week-4 .week-1-heading
+{
+    background: #d9e7f1;
+    padding: 20px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+}
+
+.inner-page-wrapper-week-4 .week-1-heading img
+{
+    vertical-align: sub;
+    padding-right: 13px;
+
+}
+
+.main-week .week-1-heading h5 {
+    font-size: 20px;
+    display: inline;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+}
+
+
+.inner-page-wrapper-week-4 .week-1-heading h4
+{
+    text-transform: capitalize;
+    display: inline;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Fontfabric---Mont-Bold';
+    color: black;
+    word-spacing: 2px;
+}
+
+.week-1-content
+{
+    padding: 0px 33px;
+}
+
+.left-content
+{
+    float: left;
+}
+
+.inner-page-wrapper-week-4 .week-1-content h2
+{
+    font-size: 28px;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    margin: 35px 0px 13px 0px;
+}
+
+.inner-page-wrapper-week-4 .week-1-content p
+{
+    font-weight: 600;
+color: #919191;
+font-size: 16px;
+word-spacing: 1px;
+font-family: 'Fontfabric---Mont-Regular';
+}
+
+.right-content
+{
+    float: right;
+}
+
+.form_submit_btn {
+    margin: 40px 0px 0px 90px;
+font-size: 18px;
+
+}
+
+.form_submit_btn a {
+    font-size: 17px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #53b3e8, #2183bc);
+    -webkit-text-fill-color: white;
+    font-family: 'Fontfabric---Mont-Bold';
+}
+
+.form_submit_btn i {
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.media-content .media h3
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.media-content .media #women
+
+{
+    z-index: 0;
+    right: 15px;
+}
+
+.inner-page-wrapper-week-4 .media-body p
+{
+    display: block;
+}
+
+.inner-page-wrapper-week-4 .media
+{
+    border: solid 1px #4fafe5;
+    border-radius: 7px;
+    padding: 15px 0px 30px 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.inner-page-wrapper-week-4 .media img
+{
+    vertical-align: top;
+    position: relative;
+    top: 10px;
+}
+
+.inner-page-wrapper-week-4 .media p
+
+{
+    display: inline-block;
+font-weight: 500;
+font-size: 22px;
+padding: 0px 0px 0px 15px;
+margin-bottom: 18px;
+line-height: 1.6;
+font-family: 'Fontfabric---Mont-SemiBold';
+color: black;
+}
+
+.inner-page-wrapper-week-4 .media-body p
+
+{
+    color: #919191;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 600;
+
+    padding: 25px 0px 10px 0px;
+    margin: 0;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.media-body button {
+    font-size: 18px;
+    color: #348fc3 !important;
+    padding: 0;
+    background: linear-gradient(to right, #61bbec, #2385bd);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-decoration: none !important;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-weight: 500;
+}
+
+.media-body button i {
+    padding-left: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.inner-page-wrapper-week-4 .media-body a
+{
+    color: #919191;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+    display: block;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+
+.inner-page-wrapper-week-4 .media-body i
+{
+    color: #3c9dd4;
+    font-size: 18px;
+    padding-right: 2px;
+}
+
+
+
+.About-the-Course .week-active-content
+{
+    background: white;
+    padding: 25px 30px;
+    border: solid 1px #cfe3d5;
+    border-radius: 7px;
+    margin: 15px 0px 0px 0px;
+}
+
+.inner-page-wrapper-week-4 .About-the-Course .week-active-content a
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 19px;
+
+}
+
+.About-the-Course .week-active-content i ,.About-the-Course .week-inactive-content i
+{
+    font-size: 22px;
+    padding-right: 15px;
+    background: linear-gradient(to right, #54b4ea, #2587bf);
+        background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.inner-page-wrapper-week-4 .week-inactive-content span {
+    font-size: 12px;
+    background: #04040414;
+    border-radius: 20px;
+    padding: 4px 25px;
+    border: solid 1px #04040414;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #68696a;
+    word-spacing: 2px;
+}
+
+
+.About-the-Course .week-1-heading a {
+    text-transform: uppercase;
+
+    font-weight: bolder;
+letter-spacing: 2px;
+font-size: 20px;
+padding: 0;
+}
+
+.About-the-Course .week-active-content a ,.week-inactive-content a
+{
+    display: inline-flex;
+
+letter-spacing: 1px;
+/* font-size: 18px; */
+color: black;
+}
+
+.About-the-Course .week-active-content small ,.week-inactive-content small
+{
+    color: #919191;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    padding: 5px 0px 0px 10px;
+}
+
+.About-the-Course .form_submit_btn
+{
+    float: right;
+    margin: 0;
+}
+
+.About-the-Course .form_submit_btn a {
+    display: inline;
+font-size: 17px;
+padding: 10px 20px;
+border-radius: 8px;
+text-transform: uppercase;
+letter-spacing: 1px;
+background: linear-gradient(to right, #53b3e8, #2183bc);
+-webkit-text-fill-color: white;
+font-family: 'Fontfabric---Mont-Bold';
+}
+
+.About-the-Course .form_submit_btn i
+{
+    color: white;
+    padding: 0;
+}
+
+.About-the-Course .week-inactive-content
+{
+    padding: 25px 30px;
+    border-bottom: solid 1px #cfd4e3;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.About-the-Course .main-week {
+    background-color: #f6f8fa;
+    border-radius: 7px;
+    padding: 11px;
+    margin: 35px 0px;
+}
+
+/* week-4-end */
+
+/* Course Info Start */
+.Course-Info-heading-1 {
+    color: #9aa9b1;
+    font-size: 26px;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+}
+.Course-Info-heading-2 {
+    color: #111111;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Course-Info-heading-3 {
+    color: #a3b1b8;
+    font-size: 18px;
+    font-family: 'Fontfabric---Mont-Regular';
+    margin-bottom: 35px;
+    margin-top: 13px;
+}
+.Course-Info-inner-background {
+    background-color: #f6f9fa;
+    border-radius: 10px;
+    border: transparent;
+    padding: 17px 14px;
+    margin-bottom: 40px;
+}
+.Course-Info-p {
+    margin-left: 27px!important;
+    font-size: 17px;
+    line-height: 27px;
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    margin-top: 0;
+    font-weight: 300;
+    padding-right: 11%;
+}
+.Course-h3 {
+    background-color: transparent;
+    font-size: 19px;
+    border: solid transparent 1px;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-top: 0;
+    text-transform: capitalize;
+    color: #111111;
+    font-family: 'Fontfabric---Mont-Regular';
+    padding-top: 25px;
+}
+.Course-Info-inner-background2 {
+    background-color: #e7f1f8;
+    padding-bottom: 20px;
+    border: solid #cfe3d5 1px;
+    border-radius: 10px;
+}
+.course-info-col-left {
+    width: 13%;
+    float: left;
+}
+.course-info-col-right {
+    width: 87%;
+}
+.Organization-Leadership {
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border: solid #cfe3d5 1px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+.Course-Info-Taught {
+    color: #919191;
+    font-size: 20px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Course-Info-Professor {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 22px;
+    margin-top: 7px;
+}
+.man {
+    margin-top: -5px;
+}
+.Course-Info-Department {
+    color: #919191;
+    font-size: 17px;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.Course-Info-Professor span {
+    color: #2284bd;
+}
+.Course-Info-inner-background3 {
+    background-color: #ffffff;
+    padding: 0px 10px;
+    margin-top: 15px;
+    padding-top: 10px!important;
+    border: solid #cfe3d5 1px;
+    border-radius: 10px;
+    padding-bottom: 0px!important;
+}
+.Course-Info-half-right-col {
+    width: 70%;
+    border: solid #cfe3d5 1px;
+    background-color: #f6f9fa;
+    padding: 0px 0px;
+    float: right;
+    color: #919191;
+}
+.Course-Info-half-left-col {
+    width: 30%;
+    color: #919191;
+    background-color: #f6f9fa;
+    padding: 2px -20px;
+    border: solid #cfe3d5 1px;
+    text-align: left;
+    float: left;
+}
+.Course-Info-half-left-col-h3 {
+    color: #111111;
+}
+
+.Course-Info-half-left-col-p {
+    margin-left: 20px;
+    margin-top: 9px;
+    font-size: 26px;
+}
+.Info-lock {
+    margin-right: 12px;
+    padding-left: 10px;
+    margin-top: -6px;
+}
+.Course-Info-full-col {
+    width: 100%;
+}
+.Syllabus {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 30px;
+}
+.Syllabus-background {
+    background-color: #f6f9fa;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Syllabus-p {
+    margin-left: 27px!important;
+    font-size: 16px;
+    line-height: 27px;
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    margin-top: 15px;
+    padding-right: 11%;
+}
+.Syllabus-h3 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    padding-left: 27px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.Syllabus-h2 {
+    background: #d9e7f1;
+    padding: 22px 22px;
+    margin: 7px 5px;
+    border-radius: 10px;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 20px;
+}
+.Syllabus-p1 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    padding-left: 12px;
+}
+.Syllabus-p1-span2 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-Light';
+}
+.Syllabus-p1-span1 {
+    background: linear-gradient(to right, #389ad1, #2082bb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.Syllabus-background {
+    background-color: #f6f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.clander {
+    margin-right: 12px;
+}
+.course-in-catalog {
+    padding: 20px;
+}
+.Related-Courses {
+    background-color: #f6f9fa!important;
+    padding: 40px 27px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.col-Related-Courses-h3 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 22px;
+    margin-top: 37px;
+}
+.col-Related-Courses-p {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 16px;
+}
+.Related-Courses-left {
+    width: 17%;
+    float: left;
+}
+.Related-Courses-right {
+    width: 100%;
+}
+.related-courses-1 {
+    margin-top: -23px;
+}
+.Course-Info-inner-background3-1 {
+    border: solid #cfe3d5 1px;
+    background-color: #f6f9fa;
+    border-radius: 10px;
+    height: 74px;
+    margin-bottom: 23px;
+}
+.Course-Info-inner-background3-2 {
+    border: solid #cfe3d5 1px;
+    background-color: #f6f9fa;
+    border-radius: 10px;
+    height: 110px;
+    margin-bottom: 23px;
+}
+.Course-Info-inner-background3-left {
+    width: 22%;
+    float: left;
+    border-right: solid 1px #cfdae3;
+    margin-right: 28px;
+    line-height: 73px;
+    margin-top: 0px;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 20px;
+}
+.Course-Info-inner-background3-left1 {
+    width: 22%;
+    float: left;
+    border-right: solid 1px #cfdae3;
+    margin-right: 28px;
+    line-height: 110px;
+    margin-top: 0px;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 20px;
+}
+.Course-Info-inner-background3-right {
+    width: 78%;
+    padding-top: 24px;
+}
+.Course-Info-inner-background3 ul li {
+    display: block;
+}
+.course-in-catalog {
+    height: 200px;
+    background-color: #54b4e9;
+    background-image: linear-gradient(to right, #3e9fd6 , #2486bf);
+    font-size: 15px;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    font-family: 'Fontfabric---Mont-Bold';
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 42px!important;
+}
+.course-in-catalog-icon {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+.Course-Info-inner-background3-right-p-span {
+    color: #3597ce;
+    text-transform: uppercase;
+}
+.Course-Info-inner-background3-right-p {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 16px;
+}
+.Course-Info-inner-background3-right-pp {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 16px;
+    margin-top: -2px;
+    line-height: 26px;
+}
+.info-rigth-icon {
+    color: #3597ce;
+    font-size: 20px;
+    margin-left: 2px;
+}
+/* Course Info End */
+
+/* Forums Start */
+.forums-background {
+    background-color: #f6f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 214px;
+}
+.Discussion-Forums-h1 {
+    font-family: 'Fontfabric---Mont-Regular';
+    color: #111111;
+    font-size: 28px;
+}
+.Discussion-Forums-p {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 15px;
+    margin-bottom: 45px;
+}
+.Discussion-Forums1-h3 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    padding-left: 27px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+.Discussion-Forums1-p {
+    margin-left: 27px!important;
+    font-size: 15px;
+    line-height: 27px;
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    margin-top: 15px;
+    padding-right: 11%;
+}
+.Discussion-Forums-a {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    font-size: 19px;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    font-family: 'Fontfabric---Mont-Bold';
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 0px 30px;
+    text-align: end;
+    height: 58px;
+    padding-top: 5px!important;
+    padding-bottom: 0px!important;
+    position: absolute;
+    margin-top: -74px;
+    letter-spacing: 1px;
+    margin-left: 73%;
+}
+.General-Discussion-form {
+    border: solid #cfe3d5 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 12px 6px;
+    padding: 10px 25px;
+    /* height: 156px; */
+    height: auto;
+}
+.General-Discussion-form1 {
+    border: solid #cfe3d5 1px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 12px 6px;
+    padding: 10px 25px;
+    height: 146px;
+}
+.General-Discussion-div-1 {
+    width: 64%;
+    float: left;
+}
+.General-Discussion-div-2 {
+    width: 20%;
+    float: left;
+}
+.General-Discussion-div-3 {
+    width: 15%;
+    float: left;
+}
+
+.General-Discussion-div-1-h2 {
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    color: #111111;
+    font-size: 19px;
+}
+.General-Discussion-div-1-p1 {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.General-Discussion-div-1-p2 {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    text-transform: uppercase;
+}
+.General-Discussion-div-22 {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Light';
+    margin-top: -14px;
+    font-size: 16px;
+    padding-left: 33px;
+}
+.General-Discussion-div-22-span {
+    font-family: 'Fontfabric---Mont-Bold';
+    background: linear-gradient(to right, #389ad1, #2082bb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 0px;
+    margin-top: 48px;
+    font-size: 28px;
+    margin-left: 30px;
+}
+.forums-vedio-icon {
+    margin-top: 50px;
+    padding-left: 25px;
+}
+.Forums-message-icon {
+    margin-right: 10px;
+}
+.moder {
+    margin-right: 10px;
+}
+.forum-guidelines-btn {
+    background: linear-gradient(90deg, rgba(85,181,235,1) 5%, rgba(42,140,196,1) 100%);
+    font-size: 18px;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    font-family: 'Fontfabric---Mont-Bold';
+    text-transform: uppercase;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 18px 52px;
+}
+.form-search-bar-style {
+    width: 140%;
+    padding: 14px 12px;
+    border-radius: 10px;
+    background-image: url(../images/Forums-bar_03.png);
+    background-repeat: no-repeat;
+    outline: none;
+    margin-left: -42%;
+    background-position: 94% 12px;
+    border: solid 1px #e2e2e2;
+}
+.descripition {
+    border-radius: 10px;
+    background-color: #f6f9fa;
+    padding: 1px 17px;
+    margin-top: 58px;
+}
+.descripition-h2 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 16px;
+}
+.descripition-p {
+    color: #919191!important;
+    font-family: 'Fontfabric---Mont-Regular';
+}
+.moderators {
+    border-radius: 10px;
+    background-color: #f6f9fa;
+    padding: 1px 17px;
+    padding-bottom: 20px!important;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    height: 388px;
+}
+.moderators-h2 {
+    color: #111111;
+    font-family: 'Fontfabric---Mont-SemiBold'!important;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.forum-ul {
+    margin: 0px;
+    padding: 0px;
+}
+.moderators-li {
+    float: left;
+    width: 8%;
+    margin-right: 48px;
+    margin-bottom: 21px;
+    list-style: none;
+}
+/* Forums End */
+
+/* Grades-start */
+
+.inner-page-wrapper-Grades .main-week-1 {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 15px 10px 200px 10px;
+    margin: 15px 0px;
+}
+
+.inner-page-wrapper-Grades .right-content {
+    float: left;
+    padding: 25px 0px 0px 25px;
+}
+
+.inner-page-wrapper-Grades .right-content h2
+{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.6;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.inner-page-wrapper-Grades .media-content .main-tbl-head table thead
+{
+    background: #e8f1f4;
+
+}
+
+.inner-page-wrapper-Grades .media-content .main-tbl-head table thead tr th
+{
+   padding: 30px 20px 0px 0px;
+}
+
+.inner-page-wrapper-Grades #grand-cicu-table-main thead tr th {
+    padding: 20px 0px 20px 15px !important;
+    font-size: 16px;
+    text-align: left;
+    background-color: #dee7e9;
+    text-transform: uppercase;
+    font-family: 'Fontfabric---Mont-SemiBold';
+}
+
+.inner-page-wrapper-Grades #first-column
+{
+    padding: 100px 0px;
+}
+
+.inner-page-wrapper-Grades #grand-cicu-table-main thead tr th:first-child {
+    padding: 0px 130px 0px 20px !important;
+}
+
+.inner-page-wrapper-Grades .week-1-heading {
+    display: inline-block;
+}
+
+
+.inner-page-wrapper-Grades .main-week-2 {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 15px 10px 0px 10px;
+    margin: 15px 0px;
+}
+
+.main-week-2 .week-1-heading h4 {
+    font-family: 'Fontfabric---Mont-Regular';
+    font-size: 18px;
+    font-weight: 600;
+    word-spacing: 3px;
+    color: black;
+
+}
+
+.main-week-2 .week-1-heading p {
+    font-family: 'Fontfabric---Mont-Light';
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 2px;
+    color: #919191;
+    line-height: 1.6;
+
+}
+
+.inner-page-wrapper-Grades .form_submit_btn
+{
+    padding: 0px 70px 0px 0px;
+}
+
+.inner-page-wrapper-Grades .About-the-Course .form_submit_btn p
+{
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 25px;
+    color: #3fa0d7;
+
+}
+
+.inner-page-wrapper-Grades .About-the-Course .form_submit_btn p span
+{
+    color: #ababab;
+    font-size: 25px;
+    padding-left: 120px;
+}
+
+.inner-page-wrapper-Grades .week-inactive-content small
+{
+    display: block;
+}
+
+.inner-page-wrapper-Grades .About-the-Course .week-inactive-content {
+    padding: 25px 0px 55px 15px;
+    border-bottom: solid 1px #cfd4e3;
+    margin: 0;
+    font-family: 'Fontfabric---Mont-SemiBold';
+    font-size: 17px;
+    line-height: 1.7;
+}
+#grades-pg-tbl #grand-cicu-table-main {
+    width: 100%;
+}
+
+/* Grades-end */
+
+@media screen and (max-width: 1024px) {
+    /*INDEX*/
+    .main-logo-container ul li {
+        padding: 6px 7px 6px 7px;
+    }
+    .navbar-top-links li a {
+        padding: 15px 17px;
+    }
+    .pole-movement-top-bar .navbar-top-links li:last-child {
+        padding: 0px 3px;
+        padding-top: 5px;
+    }
+    .main-subhead {
+        margin-top: 0px;
+    }
+    .involvement-inner-cont {
+        margin-bottom: 10px;
+    }
+    #grand-cicu-table-main {
+        width: 1100px !important;
+    }
+    .grand-cicu-table-main {
+        overflow-x: auto;
+    }
+    .pole-movement-sidebar {
+        min-height: 1074px;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .main-logo-container ul li {
+        padding: 6px 4px 6px 3px;
+        width: 31.7%;
+        line-height: 62px;
+        min-height: auto;
+    }
+    .main-logo-container ul li img {
+        width: 100%;
+    }
+    .main-logo-container, .navbar-top-links {
+        display: inline-block;
+        width: 50%;
+        float: left;
+    }
+    .navbar-top-links li a {
+        padding: 15px 9px;
+    }
+    .passive-main .involvement-inner-cont p {
+        margin-top: 13px;
+    }
+    .involvement-cont h3 {
+        font-size: 23px;
+    }
+    .report-btn-main ul li button {
+        margin-right: 10px;
+    }
+    .report-btn-main ul {
+        margin-top: 8px;
+    }
+
+}
+@media screen and (max-width: 736px) {
+        /*INDEX*/
+        .msg-notfction-area {
+            display: none !important;
+        }
+        .admin-settings span {
+            display: none;
+        }
+        .navbar-top-links {
+            width: 30%;
+        }
+        .icon-bar {
+            background-color: #000 !important;
+        }
+        .navbar-toggle {
+            margin-top: 23px;
+        }
+        .navbar-top-links > li {
+            border: none;
+        }
+        .navbar-top-links {
+            width: 39%;
+        }
+        .pole-movement-sidebar {
+            min-height: auto;
+            width: 100%;
+        }
+        .passive-main .involvement-inner-cont p {
+            margin-top: 24px;
+        }
+        .modal-content {
+            width: 80%;
+            margin: auto;
+        }
+}
+@media screen and (max-width: 667px) {}
+@media screen and (max-width: 414px) {
+    /*INDEX*/
+    .passive-main .involvement-inner-cont p {
+        margin-top: 11px;
+    }
+    .involvement-cont h3 {
+        font-size: 20px;
+    }
+    #add-element {
+        margin-left: 0px;
+    }
+    .report-btn-main ul li {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .modal-content {
+        width: 100%;
+    }
+    #add-element {
+        font-size: 13px;
+        height: 30px;
+        width: 30px;
+    }
+    .modal-title {
+        font-size: 19px;
+    }
+    .modal-header .close {
+        right: 9px;
+        top: 11px;
+    }
+    .modal-form label b {
+        font-size: 15px;
+    }
+    .modal-form p input {
+        font-size: 13px;
+    }
+    #modal-sub-btn {
+        padding: 10px 0px;
+        font-size: 17px;
+    }
+    .navbar-top-links {
+        width: 34%;
+    }
+    .navbar-main-icon-list li {
+        margin: 0 6px !important;
+    }
+
+    .navbar-main-icon-list {
+        text-align: center;
+    }
+    .inner-page-wrapper {
+        margin-bottom: 25px;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .involvement-cont h3 {
+        font-size: 18px;
+    }
+
+}
