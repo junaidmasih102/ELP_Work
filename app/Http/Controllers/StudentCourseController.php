@@ -27,10 +27,11 @@ class StudentCourseController extends Controller
 		// , 'courses_name', $data2
 	}
 
-	public function course_dashbaord()
+	public function course_dashbaord(Request $request, $id)
 	{
 
-	
+		$data = Courses_week::where('course_id', $id)->where('status', 1)->with('topics')->get();
+		return view('student.course_dashboard', ['course_weeks' => $data, 'course_id' => $id]);
 
 	}
 
