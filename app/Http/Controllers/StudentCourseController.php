@@ -20,11 +20,13 @@ class StudentCourseController extends Controller
 	public function __construct(Request $request)
 	{
 
+
 		$id = $request->course_id;
 
 		// $courseid = $request->id;
 		// $data2 = Courses::where('id', $courseid)->where('status', 1)->get();
 		$data = Courses_week::where('course_id', $id)->where('status', 1)->get();
+
 		View::share('course_weeks_sidebar', $data);
 		// , 'courses_name', $data2
 	}
@@ -32,18 +34,15 @@ class StudentCourseController extends Controller
 	public function course_dashbaord(Request $request, $id)
 	{
 
-
-		// echo $id;
-
 		$data_module = DB::table('courses')
 			->select('*')
 			->join('courses_weeks', 'courses_weeks.course_id', '=', 'courses.id')
 			->join('topics', 'topics.week_id', '=', 'courses_weeks.id')
 			->join('topics_data', 'topics_data.topic_id', '=', 'topics.id')
 			->join('assessment', 'assessment.course_id', '=', 'courses.id')
-			
+
 			->where('courses.id', $id)
-			->where('topics_data.type','V')
+			->where('topics_data.type', 'V')
 			->get();
 
 		// $data = Courses_week::where('course_id', $id)->where('status', 1)->with('topics')->get();

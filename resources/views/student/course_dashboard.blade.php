@@ -470,7 +470,6 @@
 <!-- <div class="col-8 "> -->
 
 
-
 <div class="main_wrapper_show">
     <div class="main_dashborad_heading">
         <div>
@@ -709,7 +708,7 @@
                             </div>
                             @endforeach
 
-                         
+
                         </div>
 
 
