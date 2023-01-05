@@ -408,282 +408,18 @@
     .info-data-main {
         text-align: left;
     }
+
     .my-information {
-    height: 353px;
-}
+        height: 353px;
+    }
 </style>
 
 
+
+
+
+
 @section('page_content')
-<!-- <div class="col-8 "> -->
-                    <div class="dashboard-content">
-                        <div class="col-12">
-                            <div class="container" style="height: 0px;">
-                            <div class="row">
-                                <div class="col-lg-1"><img src="/images/Dashboard-new-user-avatr-logo-01_03.png" alt=""></div>
-                                <div class="col-lg-11 main-heading-top">
-                                    <h2>Welcome back,<span> Mubbashir</span></h2>
-                                    <h3>Here is your progress so far keep up the great work</h3>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                <!-- </div> -->
-
-                        <!--  -->
-                            <div class="my-information">
-                                <div class="container" >
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <div class="info-data-main">
-                                                        <h5>My Information</h5>
-                                                        <h6>Age: <span>35</span> Years</h6>
-                                                        <h6>Gender: <span>Male</span> <img src="images/Dashboard-newUK-Flag-main_07.png" alt=""> UK</h6>
-                                                        <h6>Weight: <span>177</span> lbs</h6>
-                                                        <h6>Primary Insurance: <span>AARP Healthcare Option</span><br> PO BOX 740819 /
-                                                            Atlanta, GA</h6>
-                                                            <a href="#">History of Login</a>
-
-                                            </div>
-                                            </div>
-                                            <div class="col-6">
-                                                <h3>Attendance</h3>
-                                                <span class="back-img-percrnt">
-                                                    <!-- <img src="/images/Dashboard-loader-1_03.png" alt=""> -->
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        <!--  -->
-<!-- <div class="row"> -->
-                        <div class="col-12  learning-progress-sec-02">
-                            <div class="row">
-
-                                <div class="col-lg-5 col-md-8">
-                                    <h3>Your Learning Progress</h3>
-                                    <div class="row sec-01-01">
-                                        <div class="col-lg-6">
-                                        <img src="/images/Dashboard-loader-02_07.png"/>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <img style="float:left;" src="images/percent-chek-box_03.png" alt="">
-                                            <h6 style="margin-left: 25px;">75%
-                                                Student Learning
-                                                Completed </h6>
-                                            <img style="float:left;margin-top: 130px;"
-                                                src="images/Dashboard-new-check-box-instnat_03.png" alt="">
-                                            <h6 style="margin-top: 135px;margin-left: 25px;">75%
-                                                Student Learning
-                                                Completed </h6>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <h3>Remaining Task</h3>
-                                    <div class="remain-task-01 remian-task-02">
-                                        <img src="images/Dashboard-newyellow-check-box-01_03.png" alt="">
-                                        <h6>Science of Learning, how people Learn?</h6>
-                                        <!-- <img src="images/Dashboard-newcross-image-011_07.png" alt=""> -->
-                                    </div>
-                                    <div class="remain-task-01 remian-task-02"><img
-                                            src="images/Dashboard-newyellow-check-box-01_03.png" alt="">
-                                        <h6>Science of Learning, how people Learn?</h6>
-                                    </div>
-                                    <div class="remain-task-01 remian-task-02"><img
-                                            src="images/Dashboard-newyellow-check-box-01_03.png" alt="">
-                                        <h6>Science of Learning, how people Learn?</h6>
-                                    </div>
-                                    <div class="remain-task-01"><img
-                                            src="images/Dashboard-newyellow-check-box-01_03.png" alt="">
-                                        <h6>Science of Learning, how people Learn?</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- </div> -->
-
-                        <!--  -->
-                        <section>
-                            <div class="col-lg-12" style="padding: 0;">
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="topic-progress">
-                                            <h5>Your Topic Progress</h5>
-                                            <img src="images/Dashboard-new-module-1_03.png" alt="">
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-book-img_07.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-book-img_07.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <img src="images/Dashboard-new-module-2_10.png" alt="">
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-book-img_07.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-book-img_07.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                        </div>
-                    
-                    
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="Your-Video-Progress">
-                                            <h5>Your Video Progress</h5>
-                                            <div class="row progre-sec-1">
-                                                <div class="col-3"><img src="images/Dashboard-new-history-book-img_06.png" alt=""></div>
-                                                <div class="col-9">
-                                                    <h6>History of Health Professions Educations</h6>
-                                                    <p>Result:</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="row progre-sec-2">
-                                                    <div class="img-col">
-                                                        <h6>First</h6>
-                                                        <img src="images/Dashboard-new-progress-bar-1_03.png" alt="">
-                                                    </div>
-                                                    <div class="img-col">
-                                                        <h6>Second</h6>
-                                                        <img src="images/Dashboard-new-progress-bar-2_05.png" alt="">
-                                                    </div>
-                                                    <div class="img-col">
-                                                        <h6>Third</h6>
-                                                        <img src="images/Dashboard-new-progress-bar-3_07.png" alt="">
-                                                    </div>
-                                                    <div class="img-col">
-                                                        <h6>Fourth</h6>
-                                                        <img src="images/Dashboard-new-progress-bar-4_09.png" alt="">
-                                                    </div>
-                                                    <div class="img-col">
-                                                        <h6>Five</h6>
-                                                        <img src="images/Dashboard-new-progress-bar-5_11.png" alt="">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row progre-sec-1">
-                                                <div class="col-3"><img src="images/Dashboard-new-history-world-img_14.png" alt=""></div>
-                                                <div class="col-9">
-                                                    <h6>History of Health Professions Educations</h6>
-                                                    <p>Result:</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <div class="topic-progress">
-                                            <h5>Your Video Progress</h5>
-                                            <img src="images/Dashboard-new-module-1_03.png" alt="">
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-video-directory_13.png" alt="">
-                                                </div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-video-directory_13.png" alt="">
-                                                </div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <img src="images/Dashboard-new-module-2_10.png" alt="">
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-video-directory_13.png" alt="">
-                                                </div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row row-2">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-video-directory_13.png" alt="">
-                                                </div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                        </div>
-                    
-                    
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="topic-progress">
-                                            <h5>Your Assessment Progress</h5>
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-completed_13.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-completed_13.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-completed_13.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-1"><img src="images/Dashboard-new-topic-completed_13.png" alt=""></div>
-                                                <div class="col-10">
-                                                    <h6>Topic : <br>
-                                                        Characteristics of a ‘good’ T-L experience</h6>
-                                                </div>
-                                                <div class="col-1"> <input type="checkbox" name="" id=""></div>
-                                            </div>
-                                        </div>
-                    
-                    
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
 
 
 
@@ -699,7 +435,9 @@
 
 
 
-
+<div>
+    e
+</div>
 
 
 
@@ -742,43 +480,42 @@
     });
 </script>
 <script>
-                        // <![CDATA[  <-- For SVG support
-                        if ('WebSocket' in window) {
-                            (function () {
-                                function refreshCSS() {
-                                    var sheets = [].slice.call(document.getElementsByTagName("link"));
-                                    var head = document.getElementsByTagName("head")[0];
-                                    for (var i = 0; i < sheets.length; ++i) {
-                                        var elem = sheets[i];
-                                        var parent = elem.parentElement || head;
-                                        parent.removeChild(elem);
-                                        var rel = elem.rel;
-                                        if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-                                            var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-                                            elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-                                        }
-                                        parent.appendChild(elem);
-                                    }
-                                }
-                                var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-                                var address = protocol + window.location.host + window.location.pathname + '/ws';
-                                var socket = new WebSocket(address);
-                                socket.onmessage = function (msg) {
-                                    if (msg.data == 'reload') window.location.reload();
-                                    else if (msg.data == 'refreshcss') refreshCSS();
-                                };
-                                if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-                                    console.log('Live reload enabled.');
-                                    sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-                                }
-                            })();
-                        }
-                        else {
-                            console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-                        }
-                        // ]]>
-                    </script>
-                    
+    // <![CDATA[  <-- For SVG support
+    if ('WebSocket' in window) {
+        (function() {
+            function refreshCSS() {
+                var sheets = [].slice.call(document.getElementsByTagName("link"));
+                var head = document.getElementsByTagName("head")[0];
+                for (var i = 0; i < sheets.length; ++i) {
+                    var elem = sheets[i];
+                    var parent = elem.parentElement || head;
+                    parent.removeChild(elem);
+                    var rel = elem.rel;
+                    if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                        var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                        elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                    }
+                    parent.appendChild(elem);
+                }
+            }
+            var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+            var address = protocol + window.location.host + window.location.pathname + '/ws';
+            var socket = new WebSocket(address);
+            socket.onmessage = function(msg) {
+                if (msg.data == 'reload') window.location.reload();
+                else if (msg.data == 'refreshcss') refreshCSS();
+            };
+            if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                console.log('Live reload enabled.');
+                sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+            }
+        })();
+    } else {
+        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+    }
+    // ]]>
+</script>
+
 
 <!-- Code injected by live-server -->
 <script>

@@ -19,7 +19,9 @@ class StudentCourseController extends Controller
 {
 	public function __construct(Request $request)
 	{
+
 		$id = $request->course_id;
+
 		// $courseid = $request->id;
 		// $data2 = Courses::where('id', $courseid)->where('status', 1)->get();
 		$data = Courses_week::where('course_id', $id)->where('status', 1)->get();
@@ -30,17 +32,31 @@ class StudentCourseController extends Controller
 	public function course_dashbaord(Request $request, $id)
 	{
 
-		$data = Courses_week::where('course_id', $id)->where('status', 1)->with('topics')->get();
-		return view('student.course_dashboard', ['course_weeks' => $data, 'course_id' => $id]);
 
-	}
+		// echo $id;
 
-	
+		$data_module = DB::table('courses')
+			->select('*')
+			->join('courses_weeks', 'courses_weeks.course_id', '=', 'courses.id')
+			->join('topics', 'topics.week_id', '=', 'courses_weeks.id')
+			->join('topics_data', 'topics_data.topic_id', '=', 'topics.id')
+			->join('assessment', 'assessment.course_id', '=', 'courses.id')
+			
+			->where('courses.id', $id)
+			->where('topics_data.type','V')
+			->get();
+
 		// $data = Courses_week::where('course_id', $id)->where('status', 1)->with('topics')->get();
 
-		// return view('student.course_dashboard', ['course_weeks' => $data, 'course_id' => $id]);
+		return view('student.course_dashboard', ['data_module' => $data_module, 'course_id' => $id]);
+	}
 
-	
+
+	// $data = Courses_week::where('course_id', $id)->where('status', 1)->with('topics')->get();
+
+	// return view('student.course_dashboard', ['course_weeks' => $data, 'course_id' => $id]);
+
+
 	public function course_home(Request $request, $id)
 	{
 
@@ -165,6 +181,9 @@ class StudentCourseController extends Controller
 
 	public function week_data($id, $week)
 	{
+
+
+
 		$week_ = $week;
 		$week = str_replace("_", " ", $week);
 		$weeks = DB::table('courses_weeks')->where('course_id', $id)->where('week_name', $week)->where('status', 1)->first();
@@ -224,6 +243,7 @@ class StudentCourseController extends Controller
 
 	public function course_quiz(Request $request, $id, $week, $topic_id)
 	{
+
 		$week_ = $week;
 		$week = str_replace("_", " ", $week);
 		$weeks = DB::table('courses_weeks')->where('course_id', $id)->where('week_name', $week)->where('status', 1)->first();
